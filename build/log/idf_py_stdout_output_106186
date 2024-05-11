@@ -1,0 +1,2505 @@
+� legacy driver is depets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (181) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (291) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 2402
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1616
+>> 1535
+>> 1535
+>> 1523
+>> 1535
+>> 1527
+>> 1515
+>> 1526
+>> 1535
+>> 1534
+>> 1526
+>> 1510
+>> 1520
+>> 1531
+>> 1523
+>> 1499
+>> 1514
+>> 1526
+>> 1533
+>> 1521
+>> 1535
+>> 1509
+>> 1522
+>> 1555
+>> 1522
+>> 1513
+>> 1508
+>> 1515
+>> 1520
+>> 1535
+>> 1521
+>> 1490
+>> 1518
+>> 1531
+>> 1529
+>> 1513
+>> 1508
+>> 1508
+>> 1521
+>> 1534
+>> 1531
+>> 1514
+>> 1492
+>> 1517
+>> 1521
+>> 1515
+>> 1505
+>> 1513
+>> 1491
+>> 1510
+>> 1534
+>> 1519
+>> 1518
+>> 1520
+>> 1503
+>> 1501
+>> 1505
+>> 1513
+>> 1510
+>> 1525
+>> 1514
+>> 1510
+>> 1514
+>> 1527
+>> 1531
+>> 1518
+>> 1510
+>> 1520
+>> 1520
+>> 1533
+>> 1520
+>> 1507
+>> 1518
+>> 1511
+>> 1497
+>> 1520
+>> 1505
+>> 1486
+>> 1500
+>> 1495
+>> 1501
+>> 1471
+>> 1507
+>> 1523
+>> 1519
+>> 1505
+>> 1512
+>> 1520
+>> 1520
+>> 1518
+>> 1523
+>> 1520
+>> 1505
+>> 1504
+>> 1509
+>> 1520
+>> 1523
+>> 1522
+>> 1523
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1264
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1371
+>> 1445
+>> 1451
+>> 1475
+>> 1491
+>> 1493
+>> 1479
+>> 1491
+>> 1491
+>> 1478
+>> 1478
+>> 1491
+>> 1487
+>> 1498
+>> 1493
+>> 1497
+>> 1505
+>> 1502
+>> 1489
+>> 1487
+>> 1479
+>> 1508
+>> 1507
+>> 1510
+>> 1503
+>> 1495
+>> 1491
+>> 1486
+>> 1505
+>> 1508
+>> 1495
+>> 1491
+>> 1492
+>> 1498
+>> 1504
+>> 1520
+>> 1523
+>> 1489
+>> 1498
+>> 1503
+>> 1510
+>> 1505
+>> 1488
+>> 1493
+>> 1503
+>> 1514
+>> 1516
+>> 1493
+>> 1503
+>> 1504
+>> 1502
+>> 1501
+>> 1509
+>> 1511
+>> 1499
+>> 1515
+>> 1523
+>> 1501
+>> 1488
+>> 1487
+>> 1473
+>> 1488
+>> 1522
+>> 1482
+>> 1475
+>> 1478
+>> 1477
+>> 1485
+>> 1498
+>> 1509
+>> 1491
+>> 1491
+>> 1488
+>> 1499
+>> 1520
+>> 1519
+>> 1493
+>> 1513
+>> 1511
+>> 1519
+>> 1490
+>> 1489
+>> 1505
+>> 1507
+>> 1502
+>> 1503
+>> 1486
+>> 1504
+>> 1515
+>> 1518
+>> 1503
+>> 1520
+>> 1509
+>> 1510
+>> 1502
+>> 1510
+>> 1514
+>> 1503
+>> 1501
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1262
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1360
+>> 1447
+>> 1467
+>> 1477
+>> 1477
+>> 1482
+>> 1483
+>> 1472
+>> 1473
+>> 1475
+>> 1488
+>> 1491
+>> 1474
+>> 1487
+>> 1502
+>> 1487
+>> 1507
+>> 1499
+>> 1499
+>> 1487
+>> 1498
+>> 1499
+>> 1497
+>> 1503
+>> 1496
+>> 1472
+>> 1494
+>> 1472
+>> 1471
+>> 1472
+>> 1492
+>> 1495
+>> 1505
+>> 1500
+>> 1500
+>> 1503
+>> 1515
+>> 1515
+>> 1477
+>> 1475
+>> 1503
+>> 1508
+>> 1520
+>> 1503
+>> 1503
+>> 1503
+>> 1502
+>> 1501
+>> 1491
+>> 1494
+>> 1511
+>> 1504
+>> 1519
+>> 1504
+>> 1491
+>> 1487
+>> 1495
+>> 1507
+>> 1475
+>> 1504
+>> 1506
+>> 1483
+>> 1522
+>> 1515
+>> 1518
+>> 1488
+>> 1510
+>> 1518
+>> 1510
+>> 1519
+>> 1499
+>> 1505
+>> 1493
+>> 1504
+>> 1490
+>> 1488
+>> 1493
+>> 1488
+>> 1497
+>> 1488
+>> 1493
+>> 1500
+>> 1488
+>> 1493
+>> 1499
+>> 1480
+>> 1472
+>> 1488
+>> 1482
+>> 1488
+>> 1487
+>> 1482
+>> 1498
+>> 1488
+>> 1491
+>> 1498
+>> 1489
+>> 1514
+>> 1507
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1266
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1364
+>> 1462
+>> 1485
+>> 1482
+>> 1482
+>> 1486
+>> 1480
+>> 1487
+>> 1480
+>> 1488
+>> 1493
+>> 1495
+>> 1486
+>> 1493
+>> 1490
+>> 1489
+>> 1490
+>> 1462
+>> 1476
+>> 1477
+>> 1495
+>> 1488
+>> 1509
+>> 1494
+>> 1502
+>> 1494
+>> 1499
+>> 1500
+>> 1498
+>> 1485
+>> 1502
+>> 1507
+>> 1477
+>> 1486
+>> 1487
+>> 1488
+>> 1509
+>> 1498
+>> 1502
+>> 1488
+>> 1489
+>> 1495
+>> 1497
+>> 1497
+>> 1498
+>> 1488
+>> 1488
+>> 1495
+>> 1490
+>> 1500
+>> 1501
+>> 1513
+>> 1503
+>> 1499
+>> 1501
+>> 1504
+>> 1497
+>> 1501
+>> 1499
+>> 1488
+>> 1488
+>> 1489
+>> 1510
+>> 1494
+>> 1487
+>> 1498
+>> 1501
+>> 1494
+>> 1508
+>> 1489
+>> 1489
+>> 1498
+>> 1503
+>> 1504
+>> 1498
+>> 1495
+>> 1478
+>> 1488
+>> 1509
+>> 1489
+>> 1494
+>> 1507
+>> 1489
+>> 1498
+>> 1505
+>> 1525
+>> 1513
+>> 1511
+>> 1511
+>> 1507
+>> 1498
+>> 1528
+>> 1513
+>> 1503
+>> 1513
+>> 1506
+>> 1513
+>> 1517
+>> 1515
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1255
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1376
+>> 1453
+>> 1440
+>> 1457
+>> 1475
+>> 1475
+>> 1472
+>> 1495
+>> 1498
+>> 1490
+>> 1496
+>> 1488
+>> 1506
+>> 1488
+>> 1491
+>> 1491
+>> 1481
+>> 1488
+>> 1498
+>> 1514
+>> 1501
+>> 1507
+>> 1499
+>> 1507
+>> 1495
+>> 1502
+>> 1507
+>> 1488
+>> 1495
+>> 1519
+>> 1501
+>> 1496
+>> 1499
+>> 1501
+>> 1499
+>> 1509
+>> 1491
+>> 1507
+>> 1506
+>> 1489
+>> 1510
+>> 1501
+>> 1505
+>> 1492
+>> 1495
+>> 1492
+>> 1499
+>> 1522
+>> 1509
+>> 1491
+>> 1499
+>> 1491
+>> 1507
+>> 1501
+>> 1482
+>> 1488
+>> 1475
+>> 1488
+>> 1489
+>> 1493
+>> 1491
+>> 1491
+>> 1499
+>> 1509
+>> 1485
+>> 1471
+>> 1478
+>> 1501
+>> 1513
+>> 1515
+>> 1492
+>> 1491
+>> 1483
+>> 1475
+>> 1490
+>> 1490
+>> 1498
+>> 1495
+>> 1507
+>> 1489
+>> 1488
+>> 1478
+>> 1479
+>> 1505
+>> 1490
+>> 1491
+>> 1477
+>> 1490
+>> 1494
+>> 1490
+>> 1490
+>> 1510
+>> 1488
+>> 1488
+>> 1488
+>> 1501
+>> 1502
+>> 1499
+>> 1497
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1235
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1355
+>> 1413
+>> 1435
+>> 1438
+>> 1447
+>> 1451
+>> 1489
+>> 1472
+>> 1475
+>> 1471
+>> 1459
+>> 1472
+>> 1488
+>> 1501
+>> 1475
+>> 1481
+>> 1487
+>> 1499
+>> 1471
+>> 1488
+>> 1485
+>> 1499
+>> 1490
+>> 1479
+>> 1477
+>> 1495
+>> 1501
+>> 1507
+>> 1491
+>> 1510
+>> 1491
+>> 1483
+>> 1481
+>> 1488
+>> 1487
+>> 1492
+>> 1483
+>> 1473
+>> 1479
+>> 1495
+>> 1496
+>> 1479
+>> 1488
+>> 1475
+>> 1479
+>> 1473
+>> 1493
+>> 1499
+>> 1488
+>> 1499
+>> 1492
+>> 1481
+>> 1483
+>> 1461
+>> 1468
+>> 1479
+>> 1483
+>> 1488
+>> 1501
+>> 1500
+>> 1488
+>> 1488
+>> 1489
+>> 1473
+>> 1471
+>> 1466
+>> 1491
+>> 1488
+>> 1503
+>> 1483
+>> 1487
+>> 1486
+>> 1487
+>> 1489
+>> 1488
+>> 1491
+>> 1479
+>> 1467
+>> 1483
+>> 1490
+>> 1472
+>> 1486
+>> 1473
+>> 1487
+>> 1486
+>> 1491
+>> 1491
+>> 1495
+>> 1502
+>> 1484
+>> 1503
+>> 1495
+>> 1519
+>> 1502
+>> 1502
+>> 1489
+>> 1488
+>> 1503
+>> 1491
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1269
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1365
+>> 1444
+>> 1462
+>> 1486
+>> 1479
+>> 1468
+>> 1473
+>> 1479
+>> 1490
+>> 1467
+>> 1473
+>> 1494
+>> 1480
+>> 1485
+>> 1503
+>> 1474
+>> 1501
+>> 1491
+>> 1482
+>> 1488
+>> 1489
+>> 1487
+>> 1490
+>> 1487
+>> 1492
+>> 1490
+>> 1485
+>> 1485
+>> 1493
+>> 1489
+>> 1487
+>> 1495
+>> 1488
+>> 1486
+>> 1475
+>> 1487
+>> 1485
+>> 1487
+>> 1486
+>> 1500
+>> 1497
+>> 1482
+>> 1493
+>> 1495
+>> 1493
+>> 1485
+>> 1498
+>> 1491
+>> 1493
+>> 1490
+>> 1488
+>> 1494
+>> 1481
+>> 1491
+>> 1494
+>> 1486
+>> 1489
+>> 1507
+>> 1500
+>> 1497
+>> 1488
+>> 1488
+>> 1513
+>> 1488
+>> 1493
+>> 1493
+>> 1496
+>> 1498
+>> 1507
+>> 1495
+>> 1503
+>> 1488
+>> 1495
+>> 1473
+>> 1492
+>> 1501
+>> 1498
+>> 1493
+>> 1499
+>> 1499
+>> 1508
+>> 1521
+>> 1500
+>> 1493
+>> 1506
+>> 1493
+>> 1488
+>> 1499
+>> 1494
+>> 1504
+>> 1495
+>> 1497
+>> 1489
+>> 1489
+>> 1513
+>> 1491
+>> 1487
+>> 1488
+>> 1486
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1245
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1365
+>> 1450
+>> 1455
+>> 1461
+>> 1466
+>> 1469
+>> 1477
+>> 1487
+>> 1487
+>> 1487
+>> 1488
+>> 1485
+>> 1487
+>> 1474
+>> 1487
+>> 1494
+>> 1497
+>> 1472
+>> 1488
+>> 1472
+>> 1459
+>> 1487
+>> 1488
+>> 1487
+>> 1492
+>> 1501
+>> 1487
+>> 1477
+>> 1481
+>> 1487
+>> 1497
+>> 1504
+>> 1501
+>> 1479
+>> 1475
+>> 1486
+>> 1466
+>> 1472
+>> 1484
+>> 1485
+>> 1490
+>> 1494
+>> 1493
+>> 1505
+>> 1495
+>> 1483
+>> 1470
+>> 1482
+>> 1502
+>> 1506
+>> 1511
+>> 1507
+>> 1513
+>> 1497
+>> 1510
+>> 1490
+>> 1500
+>> 1504
+>> 1514
+>> 1504
+>> 1504
+>> 1506
+>> 1509
+>> 1497
+>> 1511
+>> 1498
+>> 1501
+>> 1483
+>> 1493
+>> 1501
+>> 1503
+>> 1500
+>> 1515
+>> 1505
+>> 1505
+>> 1504
+>> 1494
+>> 1493
+>> 1501
+>> 1493
+>> 1504
+>> 1498
+>> 1504
+>> 1490
+>> 1490
+>> 1502
+>> 1503
+>> 1500
+>> 1477
+>> 1502
+>> 1511
+>> 1494
+>> 1482
+>> 1507
+>> 1475
+>> 1476
+>> 1475
+>> 1495
+>> 1503
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1259
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1360
+>> 1456
+>> 1481
+>> 1471
+>> 1483
+>> 1487
+>> 1488
+>> 1472
+>> 1475
+>> 1489
+>> 1483
+>> 1484
+>> 1482
+>> 1494
+>> 1488
+>> 1482
+>> 1482
+>> 1489
+>> 1488
+>> 1488
+>> 1509
+>> 1482
+>> 1502
+>> 1497
+>> 1482
+>> 1489
+>> 1489
+>> 1493
+>> 1488
+>> 1507
+>> 1501
+>> 1491
+>> 1479
+>> 1494
+>> 1491
+>> 1488
+>> 1514
+>> 1509
+>> 1513
+>> 1511
+>> 1509
+>> 1507
+>> 1520
+>> 1503
+>> 1507
+>> 1504
+>> 1493
+>> 1507
+>> 1488
+>> 1497
+>> 1499
+>> 1485
+>> 1491
+>> 1502
+>> 1472
+>> 1479
+>> 1487
+>> 1487
+>> 1482
+>> 1482
+>> 1467
+>> 1490
+>> 1486
+>> 1473
+>> 1494
+>> 1483
+>> 1504
+>> 1504
+>> 1499
+>> 1489
+>> 1487
+>> 1496
+>> 1499
+>> 1493
+>> 1491
+>> 1517
+>> 1505
+>> 1518
+>> 1493
+>> 1484
+>> 1508
+>> 1495
+>> 1502
+>> 1494
+>> 1501
+>> 1487
+>> 1488
+>> 1490
+>> 1503
+>> 1495
+>> 1485
+>> 1504
+>> 1505
+>> 1497
+>> 1485
+>> 1507
+>> 1519
+>> 1515
+>> 1510
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1262
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1354
+>> 1443
+>> 1467
+>> 1472
+>> 1487
+>> 1483
+>> 1495
+>> 1486
+>> 1488
+>> 1491
+>> 1491
+>> 1491
+>> 1488
+>> 1485
+>> 1488
+>> 1488
+>> 1485
+>> 1501
+>> 1498
+>> 1496
+>> 1497
+>> 1493
+>> 1499
+>> 1505
+>> 1499
+>> 1519
+>> 1479
+>> 1497
+>> 1501
+>> 1480
+>> 1487
+>> 1495
+>> 1504
+>> 1519
+>> 1509
+>> 1475
+>> 1488
+>> 1502
+>> 1509
+>> 1499
+>> 1497
+>> 1489
+>> 1490
+>> 1488
+>> 1486
+>> 1486
+>> 1490
+>> 1488
+>> 1488
+>> 1494
+>> 1488
+>> 1503
+>> 1488
+>> 1488
+>> 1486
+>> 1502
+>> 1486
+>> 1502
+>> 1495
+>> 1472
+>> 1484
+>> 1493
+>> 1499
+>> 1488
+>> 1499
+>> 1500
+>> 1501
+>> 1493
+>> 1493
+>> 1498
+>> 1498
+>> 1488
+>> 1498
+>> 1495
+>> 1499
+>> 1491
+>> 1499
+>> 1493
+>> 1490
+>> 1508
+>> 1482
+>> 1498
+>> 1488
+>> 1517
+>> 1488
+>> 1493
+>> 1498
+>> 1483
+>> 1469
+>> 1481
+>> 1488
+>> 1502
+>> 1488
+>> 1472
+>> 1463
+>> 1472
+>> 1488
+>> 1488
+>> 1482
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1233
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1355
+>> 1450
+>> 1459
+>> 1472
+>> 1469
+>> 1477
+>> 1491
+>> 1477
+>> 1469
+>> 1483
+>> 1487
+>> 1489
+>> 1503
+>> 1488
+>> 1477
+>> 1490
+>> 1482
+>> 1473
+>> 1488
+>> 1456
+>> 1485
+>> 1476
+>> 1481
+>> 1479
+>> 1493
+>> 1472
+>> 1487
+>> 1472
+>> 1497
+>> 1479
+>> 1485
+>> 1491
+>> 1487
+>> 1472
+>> 1486
+>> 1497
+>> 1493
+>> 1489
+>> 1488
+>> 1488
+>> 1476
+>> 1472
+>> 1479
+>> 1482
+>> 1488
+>> 1488
+>> 1479
+>> 1479
+>> 1476
+>> 1488
+>> 1493
+>> 1475
+>> 1486
+>> 1456
+>> 1447
+>> 1463
+>> 1479
+>> 1457
+>> 1488
+>> 1474
+>> 1488
+>> 1472
+>> 1470
+>> 1478
+>> 1482
+>> 1472
+>> 1482
+>> 1471
+>> 1482
+>> 1477
+>> 1492
+>> 1468
+>> 1482
+>> 1466
+>> 1475
+>> 1488
+>> 1477
+>> 1461
+>> 1471
+>> 1472
+>> 1485
+>> 1479
+>> 1471
+>> 1471
+>> 1488
+>> 1494
+>> 1493
+>> 1477
+>> 1478
+>> 1484
+>> 1467
+>> 1479
+>> 1481
+>> 1476
+>> 1476
+>> 1459
+>> 1488
+>> 1491
+>> 1488
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1241
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1351
+>> 1426
+>> 1457
+>> 1447
+>> 1463
+>> 1463
+>> 1454
+>> 1471
+>> 1459
+>> 1457
+>> 1472
+>> 1480
+>> 1477
+>> 1468
+>> 1477
+>> 1473
+>> 1484
+>> 1482
+>> 1477
+>> 1488
+>> 1497
+>> 1472
+>> 1475
+>> 1490
+>> 1475
+>> 1477
+>> 1488
+>> 1482
+>> 1492
+>> 1489
+>> 1502
+>> 1474
+>> 1483
+>> 1473
+>> 1463
+>> 1472
+>> 1479
+>> 1473
+>> 1475
+>> 1469
+>> 1473
+>> 1472
+>> 1472
+>> 1481
+>> 1493
+>> 1488
+>> 1481
+>> 1475
+>> 1504
+>> 1488
+>> 1493
+>> 1483
+>> 1486
+>> 1496
+>> 1494
+>> 1477
+>> 1482
+>> 1505
+>> 1486
+>> 1487
+>> 1478
+>> 1487
+>> 1484
+>> 1463
+>> 1485
+>> 1486
+>> 1491
+>> 1475
+>> 1485
+>> 1483
+>> 1488
+>> 1479
+>> 1501
+>> 1503
+>> 1518
+>> 1504
+>> 1491
+>> 1494
+>> 1475
+>> 1499
+>> 1483
+>> 1477
+>> 1488
+>> 1488
+>> 1490
+>> 1503
+>> 1493
+>> 1505
+>> 1488
+>> 1488
+>> 1485
+>> 1495
+>> 1492
+>> 1472
+>> 1465
+>> 1485
+>> 1500
+>> 1502
+>> 1491
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1238
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1350
+>> 1426
+>> 1486
+>> 1477
+>> 1470
+>> 1477
+>> 1473
+>> 1473
+>> 1490
+>> 1485
+>> 1491
+>> 1488
+>> 1496
+>> 1485
+>> 1503
+>> 1477
+>> 1491
+>> 1488
+>> 1490
+>> 1488
+>> 1490
+>> 1493
+>> 1478
+>> 1487
+>> 1501
+>> 1488
+>> 1490
+>> 1488
+>> 1477
+>> 1482
+>> 1488
+>> 1488
+>> 1475
+>> 1488
+>> 1510
+>> 1499
+>> 1504
+>> 1484
+>> 1496
+>> 1489
+>> 1469
+>> 1495
+>> 1506
+>> 1493
+>> 1492
+>> 1495
+>> 1478
+>> 1472
+>> 1475
+>> 1483
+>> 1493
+>> 1490
+>> 1505
+>> 1505
+>> 1487
+>> 1494
+>> 1485
+>> 1487
+>> 1475
+>> 1486
+>> 1472
+>> 1457
+>> 1467
+>> 1475
+>> 1456
+>> 1472
+>> 1491
+>> 1490
+>> 1494
+>> 1474
+>> 1482
+>> 1485
+>> 1497
+>> 1515
+>> 1481
+>> 1473
+>> 1499
+>> 1497
+>> 1488
+>> 1494
+>> 1483
+>> 1475
+>> 1488
+>> 1488
+>> 1495
+>> 1489
+>> 1508
+>> 1492
+>> 1504
+>> 1490
+>> 1486
+>> 1481
+>> 1488
+>> 1487
+>> 1485
+>> 1481
+>> 1488
+>> 1495
+>> 1483
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1232
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1341
+>> 1421
+>> 1424
+>> 1455
+>> 1461
+>> 1463
+>> 1463
+>> 1475
+>> 1460
+>> 1454
+>> 1453
+>> 1490
+>> 1488
+>> 1459
+>> 1457
+>> 1456
+>> 1461
+>> 1487
+>> 1499
+>> 1483
+>> 1481
+>> 1473
+>> 1472
+>> 1488
+>> 1497
+>> 1494
+>> 1494
+>> 1490
+>> 1497
+>> 1485
+>> 1487
+>> 1485
+>> 1475
+>> 1489
+>> 1492
+>> 1497
+>> 1489
+>> 1483
+>> 1491
+>> 1501
+>> 1483
+>> 1503
+>> 1501
+>> 1488
+>> 1493
+>> 1499
+>> 1498
+>> 1495
+>> 1498
+>> 1491
+>> 1491
+>> 1491
+>> 1516
+>> 1514
+>> 1488
+>> 1495
+>> 1467
+>> 1482
+>> 1478
+>> 1482
+>> 1492
+>> 1477
+>> 1491
+>> 1481
+>> 1479
+>> 1488
+>> 1487
+>> 1491
+>> 1487
+>> 1487
+>> 1490
+>> 1478
+>> 1477
+>> 1469
+>> 1467
+>> 1466
+>> 1457
+>> 1461
+>> 1475
+>> 1490
+>> 1488
+>> 1491
+>> 1505
+>> 1501
+>> 1478
+>> 1503
+>> 1490
+>> 1505
+>> 1507
+>> 1506
+>> 1481
+>> 1487
+>> 1493
+>> 1475
+>> 1489
+>> 1488
+>> 1471
+>> 1486
+>> 1497
+[0;31mE (1323) FreeRTOS: FreeRTOS Task "adc_task" should not return, Aborting now![0m
+
+abort() was called at PC 0x4008603f on core 0
+
+
+Backtrace: 0x400815ea:0x3ffb7a20 0x400857bd:0x3ffb7a40 0x4008b0ad:0x3ffb7a60 0x4008603f:0x3ffb7ad0
+
+
+
+
+ELF file SHA256: 840bd1c49
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c48h ( 40008) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019c70 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001be84 vaddr=40080000 size=04194h ( 16788) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=142a0h ( 82592) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000342c8 vaddr=40084194 size=08588h ( 34184) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     main[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  840bd1c49...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (304) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+>> 1247
+[0;32mI (323) main_task: Returned from app_main()[0m
+>> 1356
+>> 1445
+>> 1456
+>> 1471
+>> 1482
+>> 1489
+>> 1488
+>> 1479
+>> 1480
+>> 1485
+>> 1477
+>> 1472
+>> 1479
+>> 1475
+>> 1463
+>> 1472
+>> 1485
+>> 1483
+>> 1488
+>> 1477
+>> 1471
+>> 1495
+>> 1488
+>> 1498
+>> 1471
+>> 1472
+>> 1470
+>> 1488
+>> 1482
+>> 1495
+>> 1488
+>> 1486
+>> 1488
+>> 1493
+>> 1497
+>> 1471
+>> 1488
+>> 1456
+>> 1466
+>> 1470
+>> 1488
+>> 1497
+>> 1488
+>> 1489
+>> 1493
+>> 1490
+>> 1497
+>> 1488
+>> 1489
+>> 1472
+>> 1493
+>> 1483

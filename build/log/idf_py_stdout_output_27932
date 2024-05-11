@@ -1,0 +1,204 @@
+�to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (13) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d08h ( 40200) map[0m
+[0;32mI (99) esp_image: segment 1: paddr=00019d30 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001bf44 vaddr=40080000 size=040d4h ( 16596) load[0m
+[0;32mI (112) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14370h ( 82800) map[0m
+[0;32mI (142) esp_image: segment 4: paddr=00034398 vaddr=400840d4 size=08648h ( 34376) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (173) cpu_start: Multicore app[0m
+[0;32mI (182) cpu_start: Pro cpu start user code[0m
+[0;32mI (182) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (182) cpu_start: Application information:[0m
+[0;32mI (185) cpu_start: Project name:     main[0m
+[0;32mI (190) cpu_start: App version:      1[0m
+[0;32mI (194) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (200) cpu_start: ELF file SHA256:  56fecb561...[0m
+[0;32mI (206) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (211) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (215) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (220) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (225) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (232) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (251) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (257) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (265) spi_flash: detected chip: generic[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (272) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (285) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (294) main_task: Started on CPU0[0m
+[0;32mI (304) main_task: Calling app_main()[0m
+Nhiệt độ: 32.76 °C
+[0;32mI (304) main_task: Returned from app_main()[0m
+Nhiệt độ: 30.67 °C
+Nhiệt độ: 30.86 °C
+Nhiệt độ: 30.67 °C
+Nhiệt độ: 31.24 °C
+Nhiệt độ: 30.76 °C
+Nhiệt độ: 31.05 °C
+Nhiệt độ: 31.05 °C
+Nhiệt độ: 31.14 °C
+Nhiệt độ: 31.33 °C
+Nhiệt độ: 31.24 °C
+Nhiệt độ: 31.52 °C
+Nhiệt độ: 31.43 °C
+Nhiệt độ: 31.43 °C
+Nhiệt độ: 31.62 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 31.81 °C
+Nhiệt độ: 31.33 °C
+Nhiệt độ: 31.90 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 31.81 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 31.43 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.00 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.10 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.76 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.76 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.76 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.38 °C
+Nhiệt độ: 32.19 °C
+Nhiệt độ: 32.48 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.29 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 32.57 °C
+Nhiệt độ: 33.24 °C
+Nhiệt độ: 33.24 °C
+Nhiệt độ: 32.67 °C
+Nhiệt độ: 32.67 °C

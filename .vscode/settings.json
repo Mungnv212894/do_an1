@@ -1,0 +1,13 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "files.associations": {
+        "*.ejs": "html",
+        "stdio.h": "c",
+        "esp_system.h": "c",
+        "freertos.h": "c",
+        "adc.h": "c",
+        "gpio.h": "c",
+        "esp_log.h": "c",
+        "string.h": "c"
+    }
+}

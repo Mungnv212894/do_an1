@@ -1,0 +1,624 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+[0m
+[0;33m0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+[0m
+[0;33m0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/mung/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/mung/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/mung/esp/esp-idf/components/newlib/assert.c:81
+0x400874ce: xTaskRemoveFromEventList at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x40085ea4: xQueueSemaphoreTake at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x4008afa8: esp_log_impl_lock_timeout at /home/mung/esp/esp-idf/components/log/log_freertos.c:48
+0x400e7616: esp_log_writev at /home/mung/esp/esp-idf/components/log/log.c:207
+0x4008af61: esp_log_write at /home/mung/esp/esp-idf/components/log/log.c:225
+0x400e6ee5: main_task at /home/mung/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x40086021: vPortTaskWrapper at /home/mung/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

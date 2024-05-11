@@ -1,0 +1,231 @@
+the binary image head�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2024 18:07:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09e98h ( 40600) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019ec0 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001c0d4 vaddr=40080000 size=03f44h ( 16196) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=176ach ( 95916) map[0m
+[0;32mI (165) esp_image: segment 4: paddr=000376d4 vaddr=40083f44 size=087d8h ( 34776) load[0m
+[0;32mI (185) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (186) boot: Disabling RNG early entropy source...[0m
+[0;32mI (197) cpu_start: Multicore app[0m
+[0;32mI (206) cpu_start: Pro cpu start user code[0m
+[0;32mI (206) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (206) cpu_start: Application information:[0m
+[0;32mI (209) cpu_start: Project name:     main[0m
+[0;32mI (214) cpu_start: App version:      1[0m
+[0;32mI (218) cpu_start: Compile time:     May  6 2024 18:07:22[0m
+[0;32mI (224) cpu_start: ELF file SHA256:  a66a1bd80...[0m
+[0;32mI (229) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (234) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (239) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (244) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (249) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (256) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (268) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (274) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (281) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (288) spi_flash: detected chip: generic[0m
+[0;32mI (292) spi_flash: flash io: dio[0m
+[0;33mW (296) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (309) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (318) main_task: Started on CPU0[0m
+[0;32mI (328) main_task: Calling app_main()[0m
+>>  0 2437
+[0;32mI (328) main_task: Returned from app_main()[0m
+>>  1 1643
+>>  2 1586
+>>  3 1583
+>>  4 1569
+>>  5 1570
+>>  6 1584
+>>  7 1571
+>>  8 1535
+>>  9 1554
+>>  10 1568
+>>  11 1584
+>>  12 1568
+>>  13 1581
+>>  14 1578
+>>  15 1574
+>>  16 1558
+>>  17 1590
+>>  18 1568
+>>  19 1553
+>>  20 1570
+>>  21 1559
+>>  22 1558
+>>  23 1563
+>>  24 1565
+>>  25 1571
+>>  26 1566
+>>  27 1568
+>>  28 1570
+>>  29 1552
+>>  30 1555
+>>  31 1559
+>>  32 1584
+>>  33 1563
+>>  34 1577
+>>  35 1580
+>>  36 1573
+>>  37 1589
+>>  38 1597
+>>  39 1562
+>>  40 1582
+>>  41 1570
+>>  42 1569
+>>  43 1535
+>>  44 1582
+>>  45 1569
+>>  46 1566
+>>  47 1571
+>>  48 1567
+>>  49 1566
+>>  50 1561
+>>  51 1534
+>>  52 1570
+>>  53 1570
+>>  54 1553
+>>  55 1575
+>>  56 1565
+>>  57 1569
+>>  58 1559
+>>  59 1567
+>>  60 1561
+>>  61 1535
+>>  62 1558
+>>  63 1555
+>>  64 1562
+>>  65 1567
+>>  66 1570
+>>  67 1567
+>>  68 1535
+>>  69 1565
+>>  70 1578
+>>  71 1585
+>>  72 1571
+>>  73 1535
+>>  74 1560
+>>  75 1558
+>>  76 1562
+>>  77 1558
+>>  78 1535
+>>  79 1554
+>>  80 1566
+>>  81 1571
+>>  82 1558
+>>  83 1572
+>>  84 1568
+>>  85 1571
+>>  86 1535
+>>  87 1579
+>>  88 1569
+>>  89 1585
+>>  90 1558
+>>  91 1570
+>>  92 1575
+>>  93 1570
+>>  94 1563
+>>  95 1583
+>>  96 1570
+>>  97 1574
+>>  98 1579
+>>  99 1575
+>> 2559250824982495250325122515249924342423249925062515252225192518250725142511251025012501249625022503250724912496248924022403244825152505252225272531253325382444250725122485241825262515251225342538250425222405248725312496250225112531251425162516248525092492249924472531253825152518251025082515242524682480241324862508241725102534253525432542254425172521251125422543254325452542252925442528254425312522_>>  0 1683
+>>  1 1535
+>>  2 1569
+>>  3 1577
+>>  4 1581
+>>  5 1567
+>>  6 1584
+>>  7 1573
+>>  8 1574
+>>  9 1582
+>>  10 1573
+>>  11 1561
+>>  12 1568
+>>  13 1579
+>>  14 1569
+>>  15 1577
+>>  16 1535
+>>  17 1535
+>>  18 1533
+>>  19 1553
+>>  20 1535
+>>  21 1571
+>>  22 1583
+>>  23 1561
+>>  24 1534
+>>  25 1531
+>>  26 1535
+>>  27 1535
+>>  28 1555
+>>  29 1573
+>>  30 1571
+>>  31 1562
+>>  32 1534
+>>  33 1520
+>>  34 1535
+>>  35 1556
+>>  36 1568
+>>  37 1535
+>>  38 1535
+>>  39 1561
+>>  40 1555
+>>  41 1535
+>>  42 1553
+>>  43 1552
+>>  44 1535
+>>  45 1535
+>>  46 1559
+>>  47 1553
+>>  48 1568
+>>  49 1535
+>>  50 1569
+>>  51 1563
+>>  52 1561
+>>  53 1561
+>>  54 1562
+>>  55 1569
+>>  56 1557
+>>  57 1554
+>>  58 1535
+>>  59 1553
+>>  60 1535
+>>  61 1535
+>>  62 1535
+>>  63 1531
+>>  64 1535
+>>  65 1555
+>>  66 1535
+>>  67 1562
+>>  68 1571
+>>  69 1535
+>>  70 1535
+>>  71 1535
+>>  72 1553
